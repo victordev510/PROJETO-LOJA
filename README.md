@@ -3,6 +3,7 @@ ________________________________________________________________________________
 
 Bem-vindo(a) ao repositório da minha Loja Virtual, um projeto desenvolvido por mim durante minha jornada de aprendizado em Desenvolvimento de Software.
 
+link: https://minha-vitrine2.onrender.com/index.php
 
 📌 Sobre o projeto
 
@@ -20,8 +21,6 @@ Como estudante de desenvolvimento, estou sempre buscando aprender novas tecnolog
 HTML
 CSS
 PHP
-
-Edite esta lista de acordo com as tecnologias realmente utilizadas no projeto.
 
 🎯 Objetivo
 
