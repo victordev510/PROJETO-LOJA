@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de imagens</title>
+</head>
+<style>
+    body{
+        padding: 24px;
+        font-family: "Segoe UI", Arial, sans-serif;
+    }
+    .grade{
+        display: grid;
+        grid-template-columns: repeat(3, 180px);
+        gap: 16px;
+    }
+    .grade div{
+        display: grid;
+        justify-items: center;
+        gap: 8px;
+        padding: 12px;
+        border: 1px solid #c8cfdc;
+        border-radius: 10px;
+    }
+    .grade img{
+        width: 110px;
+        height: 110px;
+        object-fit: contain;
+    }
+</style>
+<body>
+    <h1>Teste de Imagens</h1>
+    <p>As duas primeiras vem da internet (link). A terceira vem da pasta assets/imagens.</p>
+
+    <div class="grade">
+        <div>
+            <img src="https://raw.github.com/microsoft/fluentui-emoji/main/assets/Laptop/3D/Laptop_3d.png" alt="Notebook">
+            <b>Online (link)</b>
+        </div>
+        <div>
+            <img src="https://raw.github.com/microsoft/fluentui-emoji/main/assets/Headphone/3D/headphone_3d.png" alt="Fone de ouvido">
+            <b>Online (link)</b>
+        </div>
+        <div>
+            <img src="assets/imagens/logo.png" alt="Logo da loja">
+            <b>Local (pasta)</b>
+        </div>    
+    </div>
+    
+</body>
+</html>
